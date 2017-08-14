@@ -1,0 +1,195 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Places</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+<ion-grid>
+  <ion-row>
+    <ion-col col-4>
+       <ion-card>
+
+    <img src="/assets/img/11.jpg"/>
+
+    <ion-card-content>
+      <ion-card-title>
+        Ladakh
+      </ion-card-title>
+      <p>
+        Ladakh
+      </p>
+    </ion-card-content>
+  </ion-card>
+    <ion-card>
+  <ion-card-header>
+    Explore Nearby
+  </ion-card-header>
+
+  <ion-list>
+    <button ion-item>
+      <ion-icon name="cart" item-start></ion-icon>
+      Places of interest
+    </button>
+
+    <button ion-item>
+      <ion-icon name="cafe" item-start></ion-icon>
+      Cafe
+    </button>
+
+
+    <button ion-item>
+      <ion-icon name="beer" item-start></ion-icon>
+      Hotels
+    </button>
+</ion-list>
+</ion-card>
+    </ion-col>
+    <ion-col col-2>
+       
+    <ion-card>
+
+    <img src="/assets/img/11.jpg"/>
+
+    <ion-card-content>
+      <ion-card-title>
+        Ladakh
+      </ion-card-title>
+      <p>
+        Ladakh
+      </p>
+    </ion-card-content>
+  </ion-card>
+    <ion-card>
+  <ion-card-header>
+    Explore Nearby
+  </ion-card-header>
+
+  <ion-list>
+    <button ion-item>
+      <ion-icon name="cart" item-start></ion-icon>
+      Places of interest
+    </button>
+
+    <button ion-item>
+      <ion-icon name="cafe" item-start></ion-icon>
+      Cafe
+    </button>
+
+
+    <button ion-item>
+      <ion-icon name="beer" item-start></ion-icon>
+      Hotels
+    </button>
+</ion-list>
+</ion-card>
+    </ion-col>
+    <ion-col col-2>
+      <ion-card>
+
+    <img src="/assets/img/11.jpg"/>
+
+    <ion-card-content>
+      <ion-card-title>
+        Ladakh
+      </ion-card-title>
+      <p>
+        Ladakh
+      </p>
+    </ion-card-content>
+  </ion-card>
+    <ion-card>
+  <ion-card-header>
+    Explore Nearby
+  </ion-card-header>
+
+  <ion-list>
+    <button ion-item>
+      <ion-icon name="cart" item-start></ion-icon>
+      Places of interest
+    </button>
+
+    <button ion-item>
+      <ion-icon name="cafe" item-start></ion-icon>
+      Cafe
+    </button>
+
+
+    <button ion-item>
+      <ion-icon name="beer" item-start></ion-icon>
+      Hotels
+    </button>
+</ion-list>
+</ion-card>
+    </ion-col>
+    <ion-col col-4>
+     <ion-card>
+
+    <img src="/assets/img/11.jpg"/>
+
+    <ion-card-content>
+      <ion-card-title>
+        Ladakh
+      </ion-card-title>
+      <p>
+        Ladakh
+      </p>
+    </ion-card-content>
+  </ion-card>
+    <ion-card>
+  <ion-card-header>
+    Explore Nearby
+  </ion-card-header>
+
+  <ion-list>
+    <button ion-item (click)="openModal({charNum: 0})">
+      <ion-icon name="planet" item-start></ion-icon>
+      Places of interest
+    </button>
+
+    <button ion-item (click)="openModal({charNum: 1})">
+      <ion-icon name="restaurant" item-start></ion-icon>
+      Cafe
+    </button>
+
+
+    <button ion-item (click)="openModal({charNum: 2})">
+      <ion-icon name="home" item-start></ion-icon>
+      Hotels
+    </button>
+</ion-list>
+</ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+ <ion-fab right top>
+    <button ion-fab color="secondary"><ion-icon name="md-share"></ion-icon></button>
+    <ion-fab-list side="left">
+      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+    </ion-fab-list>
+</ion-fab>
+    
+
+  <ion-list>
+    <ion-list-header>
+      Hobbits
+    </ion-list-header>
+    <a ion-item (click)="openModal({charNum: 0})">
+      Gollum
+    </a>
+    <a ion-item (click)="openModal({charNum: 1})">
+      Frodo Baggins
+    </a>
+    <a ion-item (click)="openModal({charNum: 2})">
+      Sam
+    </a>
+  </ion-list>
+
+
+    
+</ion-content>
